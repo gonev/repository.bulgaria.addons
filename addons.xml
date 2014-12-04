@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <addons>
 	<addon id="plugin.video.vbox7" name="VBOX7" version="0.2.1" provider-name="steven, gonev">
-	<requires>
-		<import addon="xbmc.python" version="2.7"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>vbox7 video plugin</summary>
-		<description>Simple plugin for watching videos from vbox7.com</description>
-		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-	</extension>
+		<requires>
+			<import addon="xbmc.python" version="2.7"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+				<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>vbox7 video plugin</summary>
+			<description>Simple plugin for watching videos from vbox7.com</description>
+			<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		</extension>
 	</addon>
 	
 	<addon id="plugin.video.kolibka" name="Kolibka" version="0.0.2" provider-name="gonev">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>Kolibka video plugin</summary>
-		<description>Simple plugin for watching videos from kolibka.com</description>
-		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-	</extension>
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+				<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>Kolibka video plugin</summary>
+			<description>Simple plugin for watching videos from kolibka.com</description>
+			<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		</extension>
+	</addon>
+	
+	<addon id="repository.bulgarian.addons" name="Bulgarian addons repo" version="0.0.1" provider-name="gonev">
+		<extension point="xbmc.addon.repository" name="Bulgarian addons repo">
+		<info>https://raw.githubusercontent.com/gonev/repository.bulgaria.addons/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gonev/repository.bulgaria.addons/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/gonev/repository.bulgaria.addons</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bulgarian addons repo, by gonev.</summary>
+			<description lang="en">All Bulgarian addons for XBMC and KODI in one place. With this repository you keep the vbox7 and kolibka addons always updated.</description>
+			<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws. The addon "AS IS", will be provided without any warranty.</disclaimer>
+			<platform>all</platform>
+		</extension>
 	</addon>
   </addons>
