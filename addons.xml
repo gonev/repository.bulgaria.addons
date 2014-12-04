@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <addons>
+	<addon id="plugin.video.vbox7" name="VBOX7" version="0.2.1" provider-name="steven, gonev">
+	<requires>
+		<import addon="xbmc.python" version="2.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>vbox7 video plugin</summary>
+		<description>Simple plugin for watching videos from vbox7.com</description>
+		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+	</extension>
+	</addon>
+	
+	<addon id="plugin.video.kolibka" name="Kolibka" version="0.0.2" provider-name="gonev">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Kolibka video plugin</summary>
+		<description>Simple plugin for watching videos from kolibka.com</description>
+		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+	</extension>
+	</addon>
+  </addons>

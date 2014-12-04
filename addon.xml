@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addon id="repository.bulgarian.addons" name="Bulgarian addons repo" version="0.0.1" provider-name="gonev">
+    <extension point="xbmc.addon.repository" name="Bulgarian addons repo">
+    <info>http://mod-skin.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://mod-skin.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="true">http://mod-skin.googlecode.com/svn/trunk</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Bulgarian addons repo, by gonev.</summary>
+		<description lang="en">All Bulgarian addons for XBMC and KODI in one place. With this repository you keep the vbox7 and kolibka addons always updated.</description>
+		<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws. The addon "AS IS", will be provided without any warranty.</disclaimer>
+		<platform>all</platform>
+    </extension>
+  </addon>
