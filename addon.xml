@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   <addon id="repository.bulgarian.addons" name="Bulgarian addons repo" version="0.0.1" provider-name="gonev">
     <extension point="xbmc.addon.repository" name="Bulgarian addons repo">
-    <info>http://mod-skin.googlecode.com/svn/trunk/addons.xml</info>
-    <checksum>http://mod-skin.googlecode.com/svn/trunk/addons.xml.md5</checksum>
-    <datadir zip="true">http://mod-skin.googlecode.com/svn/trunk</datadir>
+    <info>https://raw.githubusercontent.com/gonev/repository.bulgaria.addons/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/gonev/repository.bulgaria.addons/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/gonev/repository.bulgaria.addons</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
     <summary lang="en">Bulgarian addons repo, by gonev.</summary>
